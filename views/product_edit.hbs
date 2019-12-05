@@ -1,0 +1,6 @@
+<h5>Edit Product</h5>
+<form action="/update/{{results.product_id}}" method="post">
+  <input type="text" name="product_name" class="form-control product_name" placeholder="Product Name" value="{{results.product_name}}" required>
+  <input type="text" name="product_price" class="form-control price" placeholder="Price" value="{{results.product_price}}" required>
+  <button type="submit">Update</button>
+</form>
